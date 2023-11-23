@@ -1,0 +1,170 @@
+@import url('https:fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --bg-color: #363062;
+    --second-bg-color: #4D4C7D;
+    --text-color: #F5F5F5;
+    --second-text-color: #F99417;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.7rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+
+
+.header .navbar{
+    color: var(--text-color);
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.header .navbar a:hover{
+    color: var(--second-text-color);
+    transition: .3s ease-in;
+}
+
+.header .navbar a{
+    padding: 2.1rem;
+}
+
+.header div button {
+    font-size: 1.7rem;
+    padding: 2.1rem;
+    justify-content: space-around;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.header div #login{
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    border-radius: 0.7rem;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.header div #started{
+    background-color: var(--second-bg-color);
+    color: var(--text-color);
+    border-radius: 0.7rem;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.button-container {
+    display: flex;
+    padding: 10px;
+}
+
+.line-up-button {
+    margin-right: 10px; /* Adjust the margin as needed to create space between buttons */
+}
+
+.header div #login:hover{
+    background-color: var(--second-bg-color);
+    color: var(--text-color);
+    transition: .3s ease-in-out;
+}
+
+.header div #started:hover{
+    background-color: var(--text-color);
+    color: var(--second-bg-color);
+    transition: .3s ease-in-out;
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+.homepage{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-position: center;
+    width: 100%;
+    padding: 0.7rem;
+    position: relative;
+}
+
+section h3{
+    color: var(--text-color);
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 0.7rem;
+}
+
+section p{
+    color: var(--text-color);
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin: 0.7rem;
+}
+
+.homepage .try{
+    background-color: var(--second-text-color);
+    color: var(--text-color);
+    font-size: 1.7rem;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.home video{
+    border-radius: 10px;
+}
+
+ .watch{
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    font-size: 1.7rem;
+    font-weight: 700;
+    border-radius: 10px;
+    
+}
+
+.btn{
+    display: inline-block;
+}
+
+
